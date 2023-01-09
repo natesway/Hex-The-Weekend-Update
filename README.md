@@ -3,6 +3,8 @@
 ## SHIT
 ### I GET A CRASH RELATING TO CAMERAS???
 
+https://github.com/KadeDev/Hex-The-Weekend-Update/pull/5/commits/e772f633577a01c57ecdc4070dc0cfd0cb4ae6a1
+
 thats cuz IM FUCKIN LAZY 
 and I modified a source file on FLIXEL itself
 
