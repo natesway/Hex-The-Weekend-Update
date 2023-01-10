@@ -34,7 +34,7 @@ jobs:
           haxelib install hxcpp > /dev/null
           haxelib install lime
           haxelib install openfl
-          haxelib --never install flixel
+          haxelib --never install flixel 4.11.0
           haxelib run lime setup
           haxelib run lime setup flixel
           haxelib install flixel-tools
@@ -57,7 +57,7 @@ jobs:
         run: echo "${{github.run_id}}" > VERSION
 
       - name: Compile
-        run: haxelib run lime build linux
+        run: haxelib run lime build linux -debug
 
       - name: Publish Artifact
         uses: actions/upload-artifact@v2.2.4
